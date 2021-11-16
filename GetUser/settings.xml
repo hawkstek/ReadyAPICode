@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:interface xsi:type="con:RestService" id="14ea5053-9d39-4c71-b6b0-f421a9a0df0f" name="GetUser" type="rest_ex" wadlVersion="https://swagger.io/openapiv3/specification" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="14ea5053-9d39-4c71-b6b0-f421a9a0df0ffileName">GetUser</con:setting>
+  </con:settings>
+  <con:definitionCache type="TEXT" rootPart="GetUser.json">
+    <con:part>
+      <con:url>GetUser.json</con:url>
+      <con:content>{"openapi":"3.0.1","info":{"title":"GetUser","version":"1.0.0"},"servers":[{"url":"/"}],"paths":{"/api/v1/user":{"post":{"requestBody":{"content":{"application/json":{}}},"responses":{"default":{"description":"Default response"}}}},"/api/v1/user/{id}":{"description":"","get":{"description":"","parameters":[{"name":"id","in":"path","required":true,"schema":{"type":"string"}}],"responses":{"default":{"description":"Default response"}}},"put":{"description":"","parameters":[{"name":"id","in":"path","required":true,"schema":{"type":"string"}}],"requestBody":{"content":{"application/json":{}}},"responses":{"default":{"description":"Default response"}}},"delete":{"description":"","parameters":[{"name":"id","in":"path","required":true,"schema":{"type":"string"}}],"requestBody":{"content":{"application/json":{}}},"responses":{"default":{"description":"Default response"}}},"parameters":[{"name":"id","in":"path","required":true}]}}}</con:content>
+      <con:type>https://swagger.io/openapiv3/specification</con:type>
+    </con:part>
+  </con:definitionCache>
+  <con:endpoints>
+    <con:endpoint>https://www.test-insurance.com</con:endpoint>
+  </con:endpoints>
+  <con:environmentSpec>
+    <con:entry environmentId="e6a4f465-b4f7-4f0b-9d25-191f526b0078">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+    <con:entry environmentId="Default"/>
+  </con:environmentSpec>
+</con:interface>
