@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <con:soapui-project id="9d99396e-13a6-42f6-ac48-f2ba77a2eaa9" created="3.10.1" activeEnvironment="Default environment" name="Hawks API Automation_Class Project Complete" resourceRoot="" authProfile="Bearer Token" updated="3.10.1" encryptionMode="Not encrypted" compositeProjectFormat="1.3" xmlns:con="http://eviware.com/soapui/config">
-  <con:settings/>
+  <con:settings>
+    <con:setting id="9d99396e-13a6-42f6-ac48-f2ba77a2eaa9fileName">reade</con:setting>
+  </con:settings>
   <con:requirements/>
   <con:properties/>
   <con:wssContainer/>
@@ -20,7 +22,6 @@
     </con:oAuth2Profile>
   </con:oAuth2ProfileContainer>
   <con:oAuth1ProfileContainer/>
-  <con:reporting/>
   <con:eventHandlers type="RequestFilter.filterRequest" name="RequestFilter.filterRequest">
     <con:script>// Sample event script to add custom HTTP header to all outgoing REST, SOAP and HTTP(S) calls
 // This code is often used for adding custom authentication to ReadyAPI functional tests
